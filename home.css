@@ -1,0 +1,84 @@
+/* Define color variables */
+:root {
+    --main-color: #6dacff;
+    --sec-color: #006aff;
+    --dark-color: #1f1f1f;
+    --light-color: #f3f3f3;
+  }
+  
+  /* Reset default margins and paddings */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the header */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 20px 0;
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--light-color);
+  }
+  
+  /* Navigation menu styling */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--light-color);
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    background-color: var(--sec-color);
+  }
+  
+  /* Main content styling */
+  section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* About, Services, and Contact sections background */
+  #about, #services, #contact {
+    background-color: var(--light-color);
+  }
+  
+  /* Adjustments for small screens */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
