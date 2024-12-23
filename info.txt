@@ -1,0 +1,4 @@
+1- Create a database (signup) or your own name
+2-Copy the users tables script in the script.sql
+3-And you are good to go.
+NB: I encourage yo to fallow PHP Best pratices
